@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtesseractui.a CMakeFiles/tesseractui.dir/src/app.cpp.o
+/usr/bin/ranlib libtesseractui.a
