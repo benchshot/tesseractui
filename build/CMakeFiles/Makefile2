@@ -88,12 +88,12 @@ clean: CMakeFiles/test_widgets.dir/clean
 CMakeFiles/tesseractui.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target tesseractui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target tesseractui"
 .PHONY : CMakeFiles/tesseractui.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tesseractui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tesseractui.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles 0
 .PHONY : CMakeFiles/tesseractui.dir/rule
@@ -105,7 +105,7 @@ tesseractui: CMakeFiles/tesseractui.dir/rule
 # codegen rule for target.
 CMakeFiles/tesseractui.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target tesseractui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target tesseractui"
 .PHONY : CMakeFiles/tesseractui.dir/codegen
 
 # clean rule for target.
@@ -120,12 +120,12 @@ CMakeFiles/tesseractui.dir/clean:
 CMakeFiles/test_widgets.dir/all: CMakeFiles/tesseractui.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_widgets.dir/build.make CMakeFiles/test_widgets.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_widgets.dir/build.make CMakeFiles/test_widgets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=7,8 "Built target test_widgets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=8,9 "Built target test_widgets"
 .PHONY : CMakeFiles/test_widgets.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_widgets.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_widgets.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_widgets.dir/rule
@@ -137,7 +137,7 @@ test_widgets: CMakeFiles/test_widgets.dir/rule
 # codegen rule for target.
 CMakeFiles/test_widgets.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_widgets.dir/build.make CMakeFiles/test_widgets.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=7,8 "Finished codegen for target test_widgets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=8,9 "Finished codegen for target test_widgets"
 .PHONY : CMakeFiles/test_widgets.dir/codegen
 
 # clean rule for target.

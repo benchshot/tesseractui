@@ -7,6 +7,7 @@ project(tesseractui VERSION 0.1.0 LANGUAGES CXX)
 # REQUIRED ON means fail if the compiler doesn't support C++20
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # PkgConfig is used to find and configure external libraries
 # pkg_check_modules is used to find the Notcurses library
@@ -20,6 +21,7 @@ pkg_check_modules(NOTCURSES REQUIRED IMPORTED_TARGET notcurses)
 add_library(tesseractui
     src/app.cpp
     src/buffer.cpp
+    src/renderer.cpp
     src/widget.cpp
     src/widgets/label.cpp
     src/widgets/button.cpp

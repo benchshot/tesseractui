@@ -214,6 +214,30 @@ src/buffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/buffer.cpp.s
 .PHONY : src/buffer.cpp.s
 
+src/renderer.o: src/renderer.cpp.o
+.PHONY : src/renderer.o
+
+# target to build an object file
+src/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/renderer.cpp.o
+.PHONY : src/renderer.cpp.o
+
+src/renderer.i: src/renderer.cpp.i
+.PHONY : src/renderer.i
+
+# target to preprocess a source file
+src/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/renderer.cpp.i
+.PHONY : src/renderer.cpp.i
+
+src/renderer.s: src/renderer.cpp.s
+.PHONY : src/renderer.s
+
+# target to generate assembly for a file
+src/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/renderer.cpp.s
+.PHONY : src/renderer.cpp.s
+
 src/widget.o: src/widget.cpp.o
 .PHONY : src/widget.o
 
@@ -305,6 +329,9 @@ help:
 	@echo "... src/buffer.o"
 	@echo "... src/buffer.i"
 	@echo "... src/buffer.s"
+	@echo "... src/renderer.o"
+	@echo "... src/renderer.i"
+	@echo "... src/renderer.s"
 	@echo "... src/widget.o"
 	@echo "... src/widget.i"
 	@echo "... src/widget.s"

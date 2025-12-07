@@ -20,6 +20,16 @@ namespace tesseractui {
     }
 
     void Button::handleEvent(const Event& event) {
-        //
+        if (!focused) return;
+
+        if (std::holds_alternative<KeyEvent>(event)) {
+            const auto& key = std::get<KeyEvent>(event);
+
+            if (key.key == Key::Enter || key.key == Key::Space) {
+                if (onClick) {
+                    onClick();
+                }
+            }
+        }
     }
 } // namespace tesseractui

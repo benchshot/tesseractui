@@ -1,13 +1,11 @@
 #pragma once
 
 #include <tesseractui/buffer.hpp>
+#include <tesseractui/event.hpp>
 #include <memory>
 #include <vector>
 
 namespace tesseractui {
-    
-    struct Event;
-
     class Widget {
         public:
             Widget() = default;

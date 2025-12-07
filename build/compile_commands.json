@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/nyad/Desktop/Projects/cpp/tesseractui/build",
+  "command": "/usr/bin/c++  -I/Users/nyad/Desktop/Projects/cpp/tesseractui/include -isystem /opt/homebrew/Cellar/notcurses/3.0.17/include -std=gnu++20 -arch arm64 -D_DARWIN_C_SOURCE -o CMakeFiles/tesseractui.dir/src/app.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/src/app.cpp",
+  "file": "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/app.cpp",
+  "output": "CMakeFiles/tesseractui.dir/src/app.cpp.o"
+},
+{
+  "directory": "/Users/nyad/Desktop/Projects/cpp/tesseractui/build",
+  "command": "/usr/bin/c++  -I/Users/nyad/Desktop/Projects/cpp/tesseractui/include -isystem /opt/homebrew/Cellar/notcurses/3.0.17/include -std=gnu++20 -arch arm64 -D_DARWIN_C_SOURCE -o CMakeFiles/tesseractui.dir/src/buffer.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/src/buffer.cpp",
+  "file": "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/buffer.cpp",
+  "output": "CMakeFiles/tesseractui.dir/src/buffer.cpp.o"
+},
+{
+  "directory": "/Users/nyad/Desktop/Projects/cpp/tesseractui/build",
+  "command": "/usr/bin/c++  -I/Users/nyad/Desktop/Projects/cpp/tesseractui/include -isystem /opt/homebrew/Cellar/notcurses/3.0.17/include -std=gnu++20 -arch arm64 -D_DARWIN_C_SOURCE -o CMakeFiles/tesseractui.dir/src/renderer.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/src/renderer.cpp",
+  "file": "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/renderer.cpp",
+  "output": "CMakeFiles/tesseractui.dir/src/renderer.cpp.o"
+},
+{
+  "directory": "/Users/nyad/Desktop/Projects/cpp/tesseractui/build",
+  "command": "/usr/bin/c++  -I/Users/nyad/Desktop/Projects/cpp/tesseractui/include -isystem /opt/homebrew/Cellar/notcurses/3.0.17/include -std=gnu++20 -arch arm64 -D_DARWIN_C_SOURCE -o CMakeFiles/tesseractui.dir/src/widget.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widget.cpp",
+  "file": "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/widget.cpp",
+  "output": "CMakeFiles/tesseractui.dir/src/widget.cpp.o"
+},
+{
+  "directory": "/Users/nyad/Desktop/Projects/cpp/tesseractui/build",
+  "command": "/usr/bin/c++  -I/Users/nyad/Desktop/Projects/cpp/tesseractui/include -isystem /opt/homebrew/Cellar/notcurses/3.0.17/include -std=gnu++20 -arch arm64 -D_DARWIN_C_SOURCE -o CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/label.cpp",
+  "file": "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/label.cpp",
+  "output": "CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o"
+},
+{
+  "directory": "/Users/nyad/Desktop/Projects/cpp/tesseractui/build",
+  "command": "/usr/bin/c++  -I/Users/nyad/Desktop/Projects/cpp/tesseractui/include -isystem /opt/homebrew/Cellar/notcurses/3.0.17/include -std=gnu++20 -arch arm64 -D_DARWIN_C_SOURCE -o CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/button.cpp",
+  "file": "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/button.cpp",
+  "output": "CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o"
+},
+{
+  "directory": "/Users/nyad/Desktop/Projects/cpp/tesseractui/build",
+  "command": "/usr/bin/c++  -I/Users/nyad/Desktop/Projects/cpp/tesseractui/include -isystem /opt/homebrew/Cellar/notcurses/3.0.17/include -std=gnu++20 -arch arm64 -D_DARWIN_C_SOURCE -o CMakeFiles/test_widgets.dir/examples/test_widgets.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/examples/test_widgets.cpp",
+  "file": "/Users/nyad/Desktop/Projects/cpp/tesseractui/examples/test_widgets.cpp",
+  "output": "CMakeFiles/test_widgets.dir/examples/test_widgets.cpp.o"
+}
+]

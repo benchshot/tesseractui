@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tesseractui.dir/src/app.cpp.o.d"
   "CMakeFiles/tesseractui.dir/src/buffer.cpp.o"
   "CMakeFiles/tesseractui.dir/src/buffer.cpp.o.d"
+  "CMakeFiles/tesseractui.dir/src/renderer.cpp.o"
+  "CMakeFiles/tesseractui.dir/src/renderer.cpp.o.d"
   "CMakeFiles/tesseractui.dir/src/widget.cpp.o"
   "CMakeFiles/tesseractui.dir/src/widget.cpp.o.d"
   "CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o"

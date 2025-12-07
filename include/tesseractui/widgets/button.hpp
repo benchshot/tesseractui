@@ -2,6 +2,7 @@
 
 #include <tesseractui/widget.hpp>
 #include <tesseractui/reactive.hpp>
+#include <tesseractui/event.hpp>
 #include <functional>
 #include <string>
 

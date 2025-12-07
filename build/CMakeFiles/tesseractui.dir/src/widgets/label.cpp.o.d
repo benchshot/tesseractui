@@ -880,6 +880,7 @@ CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
+  /Users/nyad/Desktop/Projects/cpp/tesseractui/include/tesseractui/event.hpp \
   /Users/nyad/Desktop/Projects/cpp/tesseractui/include/tesseractui/reactive.hpp \
   /Users/nyad/Desktop/Projects/cpp/tesseractui/include/tesseractui/signals.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
