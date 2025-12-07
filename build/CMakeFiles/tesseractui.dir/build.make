@@ -86,17 +86,81 @@ CMakeFiles/tesseractui.dir/src/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tesseractui.dir/src/app.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nyad/Desktop/Projects/cpp/tesseractui/src/app.cpp -o CMakeFiles/tesseractui.dir/src/app.cpp.s
 
+CMakeFiles/tesseractui.dir/src/buffer.cpp.o: CMakeFiles/tesseractui.dir/flags.make
+CMakeFiles/tesseractui.dir/src/buffer.cpp.o: /Users/nyad/Desktop/Projects/cpp/tesseractui/src/buffer.cpp
+CMakeFiles/tesseractui.dir/src/buffer.cpp.o: CMakeFiles/tesseractui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tesseractui.dir/src/buffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tesseractui.dir/src/buffer.cpp.o -MF CMakeFiles/tesseractui.dir/src/buffer.cpp.o.d -o CMakeFiles/tesseractui.dir/src/buffer.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/src/buffer.cpp
+
+CMakeFiles/tesseractui.dir/src/buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tesseractui.dir/src/buffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nyad/Desktop/Projects/cpp/tesseractui/src/buffer.cpp > CMakeFiles/tesseractui.dir/src/buffer.cpp.i
+
+CMakeFiles/tesseractui.dir/src/buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tesseractui.dir/src/buffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nyad/Desktop/Projects/cpp/tesseractui/src/buffer.cpp -o CMakeFiles/tesseractui.dir/src/buffer.cpp.s
+
+CMakeFiles/tesseractui.dir/src/widget.cpp.o: CMakeFiles/tesseractui.dir/flags.make
+CMakeFiles/tesseractui.dir/src/widget.cpp.o: /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widget.cpp
+CMakeFiles/tesseractui.dir/src/widget.cpp.o: CMakeFiles/tesseractui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tesseractui.dir/src/widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tesseractui.dir/src/widget.cpp.o -MF CMakeFiles/tesseractui.dir/src/widget.cpp.o.d -o CMakeFiles/tesseractui.dir/src/widget.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widget.cpp
+
+CMakeFiles/tesseractui.dir/src/widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tesseractui.dir/src/widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widget.cpp > CMakeFiles/tesseractui.dir/src/widget.cpp.i
+
+CMakeFiles/tesseractui.dir/src/widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tesseractui.dir/src/widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widget.cpp -o CMakeFiles/tesseractui.dir/src/widget.cpp.s
+
+CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o: CMakeFiles/tesseractui.dir/flags.make
+CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o: /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/label.cpp
+CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o: CMakeFiles/tesseractui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o -MF CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o.d -o CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/label.cpp
+
+CMakeFiles/tesseractui.dir/src/widgets/label.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tesseractui.dir/src/widgets/label.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/label.cpp > CMakeFiles/tesseractui.dir/src/widgets/label.cpp.i
+
+CMakeFiles/tesseractui.dir/src/widgets/label.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tesseractui.dir/src/widgets/label.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/label.cpp -o CMakeFiles/tesseractui.dir/src/widgets/label.cpp.s
+
+CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o: CMakeFiles/tesseractui.dir/flags.make
+CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o: /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/button.cpp
+CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o: CMakeFiles/tesseractui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o -MF CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o.d -o CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o -c /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/button.cpp
+
+CMakeFiles/tesseractui.dir/src/widgets/button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tesseractui.dir/src/widgets/button.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/button.cpp > CMakeFiles/tesseractui.dir/src/widgets/button.cpp.i
+
+CMakeFiles/tesseractui.dir/src/widgets/button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tesseractui.dir/src/widgets/button.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/button.cpp -o CMakeFiles/tesseractui.dir/src/widgets/button.cpp.s
+
 # Object files for target tesseractui
 tesseractui_OBJECTS = \
-"CMakeFiles/tesseractui.dir/src/app.cpp.o"
+"CMakeFiles/tesseractui.dir/src/app.cpp.o" \
+"CMakeFiles/tesseractui.dir/src/buffer.cpp.o" \
+"CMakeFiles/tesseractui.dir/src/widget.cpp.o" \
+"CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o" \
+"CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o"
 
 # External object files for target tesseractui
 tesseractui_EXTERNAL_OBJECTS =
 
 libtesseractui.a: CMakeFiles/tesseractui.dir/src/app.cpp.o
+libtesseractui.a: CMakeFiles/tesseractui.dir/src/buffer.cpp.o
+libtesseractui.a: CMakeFiles/tesseractui.dir/src/widget.cpp.o
+libtesseractui.a: CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o
+libtesseractui.a: CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o
 libtesseractui.a: CMakeFiles/tesseractui.dir/build.make
 libtesseractui.a: CMakeFiles/tesseractui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtesseractui.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libtesseractui.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/tesseractui.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tesseractui.dir/link.txt --verbose=$(VERBOSE)
 

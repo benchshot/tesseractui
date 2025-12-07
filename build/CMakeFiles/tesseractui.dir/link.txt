@@ -1,2 +1,2 @@
-/usr/bin/ar qc libtesseractui.a CMakeFiles/tesseractui.dir/src/app.cpp.o
+/usr/bin/ar qc libtesseractui.a CMakeFiles/tesseractui.dir/src/app.cpp.o CMakeFiles/tesseractui.dir/src/buffer.cpp.o CMakeFiles/tesseractui.dir/src/widget.cpp.o CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o
 /usr/bin/ranlib libtesseractui.a

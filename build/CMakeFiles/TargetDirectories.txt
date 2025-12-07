@@ -1,3 +1,4 @@
 /Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles/tesseractui.dir
+/Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles/test_widgets.dir
 /Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles/edit_cache.dir
 /Users/nyad/Desktop/Projects/cpp/tesseractui/build/CMakeFiles/rebuild_cache.dir

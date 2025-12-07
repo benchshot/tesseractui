@@ -12,13 +12,17 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # pkg_check_modules is used to find the Notcurses library
 # require means that the build will fail if Notcurses is not found
 find_package(PkgConfig REQUIRED)
-pkg_check_modules(NOTCURSES REQUIRED notcurses)
+pkg_check_modules(NOTCURSES REQUIRED IMPORTED_TARGET notcurses)
 
 # Create a library target named tesseractui
 # The source file for this library is src/app.cpp
 # List all source files needed for the library here
 add_library(tesseractui
     src/app.cpp
+    src/buffer.cpp
+    src/widget.cpp
+    src/widgets/label.cpp
+    src/widgets/button.cpp
 )
 
 # PUBLIC means that the include directories are needed by consumers of the library
@@ -34,5 +38,8 @@ target_include_directories(tesseractui
 # PUBLIC means that consumers of tesseractui will also link against Notcurses
 target_link_libraries(tesseractui
     PUBLIC
-        ${NOTCURSES_LIBRARIES}
+        PkgConfig::NOTCURSES
 )
+
+add_executable(test_widgets examples/test_widgets.cpp)
+target_link_libraries(test_widgets tesseractui)

@@ -9,6 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/app.cpp" "CMakeFiles/tesseractui.dir/src/app.cpp.o" "gcc" "CMakeFiles/tesseractui.dir/src/app.cpp.o.d"
+  "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/buffer.cpp" "CMakeFiles/tesseractui.dir/src/buffer.cpp.o" "gcc" "CMakeFiles/tesseractui.dir/src/buffer.cpp.o.d"
+  "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/widget.cpp" "CMakeFiles/tesseractui.dir/src/widget.cpp.o" "gcc" "CMakeFiles/tesseractui.dir/src/widget.cpp.o.d"
+  "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/button.cpp" "CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o" "gcc" "CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o.d"
+  "/Users/nyad/Desktop/Projects/cpp/tesseractui/src/widgets/label.cpp" "CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o" "gcc" "CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

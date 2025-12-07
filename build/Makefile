@@ -129,6 +129,43 @@ tesseractui/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/build
 .PHONY : tesseractui/fast
 
+#=============================================================================
+# Target rules for targets named test_widgets
+
+# Build rule for target.
+test_widgets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_widgets
+.PHONY : test_widgets
+
+# fast build rule for target.
+test_widgets/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_widgets.dir/build.make CMakeFiles/test_widgets.dir/build
+.PHONY : test_widgets/fast
+
+examples/test_widgets.o: examples/test_widgets.cpp.o
+.PHONY : examples/test_widgets.o
+
+# target to build an object file
+examples/test_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_widgets.dir/build.make CMakeFiles/test_widgets.dir/examples/test_widgets.cpp.o
+.PHONY : examples/test_widgets.cpp.o
+
+examples/test_widgets.i: examples/test_widgets.cpp.i
+.PHONY : examples/test_widgets.i
+
+# target to preprocess a source file
+examples/test_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_widgets.dir/build.make CMakeFiles/test_widgets.dir/examples/test_widgets.cpp.i
+.PHONY : examples/test_widgets.cpp.i
+
+examples/test_widgets.s: examples/test_widgets.cpp.s
+.PHONY : examples/test_widgets.s
+
+# target to generate assembly for a file
+examples/test_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_widgets.dir/build.make CMakeFiles/test_widgets.dir/examples/test_widgets.cpp.s
+.PHONY : examples/test_widgets.cpp.s
+
 src/app.o: src/app.cpp.o
 .PHONY : src/app.o
 
@@ -153,6 +190,102 @@ src/app.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/app.cpp.s
 .PHONY : src/app.cpp.s
 
+src/buffer.o: src/buffer.cpp.o
+.PHONY : src/buffer.o
+
+# target to build an object file
+src/buffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/buffer.cpp.o
+.PHONY : src/buffer.cpp.o
+
+src/buffer.i: src/buffer.cpp.i
+.PHONY : src/buffer.i
+
+# target to preprocess a source file
+src/buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/buffer.cpp.i
+.PHONY : src/buffer.cpp.i
+
+src/buffer.s: src/buffer.cpp.s
+.PHONY : src/buffer.s
+
+# target to generate assembly for a file
+src/buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/buffer.cpp.s
+.PHONY : src/buffer.cpp.s
+
+src/widget.o: src/widget.cpp.o
+.PHONY : src/widget.o
+
+# target to build an object file
+src/widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/widget.cpp.o
+.PHONY : src/widget.cpp.o
+
+src/widget.i: src/widget.cpp.i
+.PHONY : src/widget.i
+
+# target to preprocess a source file
+src/widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/widget.cpp.i
+.PHONY : src/widget.cpp.i
+
+src/widget.s: src/widget.cpp.s
+.PHONY : src/widget.s
+
+# target to generate assembly for a file
+src/widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/widget.cpp.s
+.PHONY : src/widget.cpp.s
+
+src/widgets/button.o: src/widgets/button.cpp.o
+.PHONY : src/widgets/button.o
+
+# target to build an object file
+src/widgets/button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/widgets/button.cpp.o
+.PHONY : src/widgets/button.cpp.o
+
+src/widgets/button.i: src/widgets/button.cpp.i
+.PHONY : src/widgets/button.i
+
+# target to preprocess a source file
+src/widgets/button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/widgets/button.cpp.i
+.PHONY : src/widgets/button.cpp.i
+
+src/widgets/button.s: src/widgets/button.cpp.s
+.PHONY : src/widgets/button.s
+
+# target to generate assembly for a file
+src/widgets/button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/widgets/button.cpp.s
+.PHONY : src/widgets/button.cpp.s
+
+src/widgets/label.o: src/widgets/label.cpp.o
+.PHONY : src/widgets/label.o
+
+# target to build an object file
+src/widgets/label.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/widgets/label.cpp.o
+.PHONY : src/widgets/label.cpp.o
+
+src/widgets/label.i: src/widgets/label.cpp.i
+.PHONY : src/widgets/label.i
+
+# target to preprocess a source file
+src/widgets/label.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/widgets/label.cpp.i
+.PHONY : src/widgets/label.cpp.i
+
+src/widgets/label.s: src/widgets/label.cpp.s
+.PHONY : src/widgets/label.s
+
+# target to generate assembly for a file
+src/widgets/label.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tesseractui.dir/build.make CMakeFiles/tesseractui.dir/src/widgets/label.cpp.s
+.PHONY : src/widgets/label.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +295,25 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tesseractui"
+	@echo "... test_widgets"
+	@echo "... examples/test_widgets.o"
+	@echo "... examples/test_widgets.i"
+	@echo "... examples/test_widgets.s"
 	@echo "... src/app.o"
 	@echo "... src/app.i"
 	@echo "... src/app.s"
+	@echo "... src/buffer.o"
+	@echo "... src/buffer.i"
+	@echo "... src/buffer.s"
+	@echo "... src/widget.o"
+	@echo "... src/widget.i"
+	@echo "... src/widget.s"
+	@echo "... src/widgets/button.o"
+	@echo "... src/widgets/button.i"
+	@echo "... src/widgets/button.s"
+	@echo "... src/widgets/label.o"
+	@echo "... src/widgets/label.i"
+	@echo "... src/widgets/label.s"
 .PHONY : help
 
 
